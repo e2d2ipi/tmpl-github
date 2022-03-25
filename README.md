@@ -19,6 +19,7 @@ This template is agnostic to the programming language used. GitHub Actions manag
 
 ### Documentation
 
+- Accessible documentation via [gh-pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)
 - [README.md](README.md) according to [www.makeareadme.com](https://www.makeareadme.com/)
 - [CHANGELOG.md](CHANGELOG.md) according to [keepachangelog.com](https://keepachangelog.com/)
 
