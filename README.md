@@ -20,13 +20,14 @@ This template is agnostic to the programming language used. GitHub Actions manag
 ### Documentation
 
 - [README.md](README.md) according to [www.makeareadme.com](https://www.makeareadme.com/)
+- [CHANGELOG.md](CHANGELOG.md) according to [keepachangelog.com](https://keepachangelog.com/)
 
 ### Consistency
 
 - Consistent versioning via [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
 - Consistent [fork and pull](https://gist.github.com/Chaser324/ce0505fbed06b947d962) workflow via [GitHub branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/managing-a-branch-protection-rule)
 - Consistent file organisation across projects via a generic Foler Structure
-  (see _.gitkeep_ files).
+  (see _.gitkeep.md_ files).
 
 ### Security
 
