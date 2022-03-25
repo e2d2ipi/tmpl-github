@@ -1,6 +1,6 @@
 # Todos & Notes
 
-Folder  [.todo/](../.todo/) is intended for **locally** holding todos and (hot) notes concerning the project. Making it a standalone folder at root level ensure it is eyecatching and its content won't be forgotten.
+Folder  [.todo/](./.todo/) is intended for **locally** holding todos and (hot) notes concerning the project. Making it a standalone folder at root level ensure it is eyecatching and its content won't be forgotten.
 
 ## Why use a `.gitkeep` file ?
 
