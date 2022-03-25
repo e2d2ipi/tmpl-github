@@ -1,8 +1,14 @@
+# Specific to tmpl-github
+.todo
+.temp
+# Uncomment the following to make it local
+.dev
+
 # Created by https://www.toptal.com/developers/gitignore/api/git,linux,macos,node,dotenv,windows,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=git,linux,macos,node,dotenv,windows,visualstudiocode
 
 ### dotenv ###
-.env
+*.env
 
 ### Git ###
 # Created by git for backups. To disable backups in Git:
