@@ -19,7 +19,9 @@ This template is agnostic to the programming language used. GitHub Actions manag
 
 ### Documentation
 
+- [package.json](package.json) according to [npm docs](https://docs.npmjs.com/cli/v7/configuring-npm/package-json)
 - Accessible documentation via [gh-pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)
+- Automated [CHANGELOG.md](CHANGELOG.md) via [git-cliff](https://github.com/orhun/git-cliff)
 - [README.md](README.md) according to [www.makeareadme.com](https://www.makeareadme.com/)
 - [CHANGELOG.md](CHANGELOG.md) according to [keepachangelog.com](https://keepachangelog.com/)
 
@@ -28,7 +30,9 @@ This template is agnostic to the programming language used. GitHub Actions manag
 - Consistent issues via [issue templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
 - Consistent labels for pull requests via [labeler](https://github.com/actions/labeler)
 - Consistent versioning via [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
+- Consistent formatting via [Prettier](https://prettier.io/) and [markdownlint](https://github.com/DavidAnson/markdownlint)
 - Consistent [fork and pull](https://gist.github.com/Chaser324/ce0505fbed06b947d962) workflow via [GitHub branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/managing-a-branch-protection-rule)
+- Consistent commit messages according to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) via [husky](https://github.com/typicode/husky) and [commitizen](https://github.com/commitizen/cz-cli)
 - Consistent workflow using well documented versatile [Guidelines and Conventions](./[dev/docs/framework-model.doc.md])
 - Consistent file organisation across projects via a generic Foler Structure
   (see _.gitkeep_ files).
@@ -50,7 +54,7 @@ This template is agnostic to the programming language used. GitHub Actions manag
 
 ## Installation
 
-To initialize the template, [generate](https://github.com/e2d2ipi/tmpl-github/generate) a new repository from the current template and follow the instructions below:
+To initialize the template, [generate](https://github.com/e2d2ipi/tmpl-gas-ts-project/generate) a new repository from the current template and follow the instructions below:
 
 ### 1. Activate Github's features
 
@@ -69,7 +73,9 @@ The first step in customizing this template consists in replacing `TAGS` by your
 
 #### 2.1. Replace tags `USER` and `REPO` by your (GituHub) _Username_ and _Repository name_ in the following files
 
+- [ ] [cliff.toml](./cliff.toml)
 - [ ] [CHANGELOG.template.md](./RSECURITY.template.md)
+- [ ] [package.json](package.json)
 - [ ] [README.template.md](./README.template.md)
 - [ ] [SECURITY.template.md](./RSECURITY.template.md)
 
@@ -98,6 +104,28 @@ The first step in customizing this template consists in replacing `TAGS` by your
 
 ### 4. Install Node.js and the template's features
 
+- [ ] Install the [latest LTS or higher version of Node](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/)
+
+- [ ] Install [pnpm](https://pnpm.io/) globally
+
+  ```bash
+  npm install -g pnpm;
+  ```
+
+- [ ] Install [Commitizen](https://github.com/commitizen/cz-cli) globally and initialie your project to use it (may require using the --force option)
+
+  ```bash
+  npm install -g commitizen;
+  commitizen init cz-conventional-changelog --save-dev --save-exact;
+  ```
+
+- [ ] Install all other dependancies defined in [package.joon](/package.jon)
+
+  ```bash
+  npm install;
+  npm run prepare;
+  ```
+
 ### 5. Clean and Customize
 
 - [ ] Remove [SECURITY.md](./SECURITY.md) from root foler.  
@@ -110,6 +138,24 @@ The first step in customizing this template consists in replacing `TAGS` by your
        Rename [README.template.md](README.template.md) to "README.md".
 
 ## Usage
+
+Check if all files are formatted correctly.
+
+```bash
+npm run check
+```
+
+Format all files.
+
+```bash
+npm run format
+```
+
+Run the wizard to write meaningful commit messages.
+
+```bash
+npm run commit
+```
 
 ## Support
 
@@ -135,7 +181,9 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 See also the list of [contributors](https://github.com/e2d2ipi/tmpl-github-project/graphs/contributors) who participated in this project.
 
-Credits to [M. Maher's](https://github.com/e2d2ipi) whose [github-template](https://github.com/maehr/github-template) served as base for the present work.
+Credits to [M. Maher's](https://github.com/e2d2ipi) whose [github-template](https://github.com/maehr/github-template) served as base for the present work and is the source of most of the available functionalities.
+
+> If you find this template well done and useful, consider having a look at **[M. Maher's](https://github.com/e2d2ipi)** own repositories. Also, please, **do not star the present repository without starring [his](https://github.com/maehr/github-template)&nbsp;**!
 
 ## License
 
