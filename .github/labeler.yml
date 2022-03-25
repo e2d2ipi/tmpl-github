@@ -1,0 +1,29 @@
+src:
+  - src/*
+
+build:
+  - .dockerignore
+  - example.env
+
+chore:
+  - .husky
+  - .markdownlintignore
+  - .prettierrc
+  - .vscode/*
+  - cliff.toml
+
+docs:
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - LICENSE.md
+  - README.md
+  - SECURITY.md
+  - docs/*
+  - .dev/*
+
+  - CHANGELOG.md
+
+git/github:
+  - .github/*
+  - .gitattributes
+  - .gitignore
