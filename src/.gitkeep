@@ -1,0 +1,9 @@
+# Project's Source Files
+
+Folder [src/](../src/) is intended for holding the source files for the root-level project.
+
+## Why use a `.gitkeep` file ?
+
+As [Git doesn't track empty directories](https://git.wiki.kernel.org/index.php/Git_FAQ#Can_I_add_empty_directories.3F), adding a`.gitkeep` file to a directory is a way to ensure that it will not be ignored when empty and, thus, that the integrity of the filesystem's tree will be preserved throughout the whole development cycle.
+
+In this template, `.gitkeep` files are further used to document the filesystem's architecture, reason why each folder, whether empty or not, holds such a file. Letting your own directories also sytematically hold a  `.gitkeep` file is strongly recommended.
