@@ -9,17 +9,36 @@ SHORT_DESCRIPTION
 
 ## Installation
 
+Use the package manager [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) to install all dependencies.
+
+```bash
+npm install
+```
+
 ## Usage
+
+```bash
+npm run check
+npm run format
+```
 
 ## Support
 
 This project is maintained by [@USERNAME](https://github.com/USERNAME). Please understand that we won't be able to provide individual support via email. We also believe that help is much more valuable if it's shared publicly, so that more people can benefit from it.
+
+| Type                                  | Platforms                                                   |
+| ------------------------------------- | ----------------------------------------------------------- |
+| 🚨 **Bug Reports**                    | [GitHub Issue Tracker](https://github.com/USER/REPO/issues) |
+| 🎁 **Feature Requests**               | [GitHub Issue Tracker](https://github.com/USER/REPO/issues) |
+| 🛡 **Report a security vulnerability** | [GitHub Issue Tracker](https://github.com/USER/REPO/issues) |
 
 ## Roadmap
 
 No changes are currently planned.
 
 ## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
