@@ -21,7 +21,6 @@ This template is agnostic to the programming language used. GitHub Actions manag
 
 - [package.json](package.json) according to [npm docs](https://docs.npmjs.com/cli/v7/configuring-npm/package-json)
 - Accessible documentation via [gh-pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)
-- Automated [CHANGELOG.md](CHANGELOG.md) via [git-cliff](https://github.com/orhun/git-cliff)
 - [README.md](README.md) according to [www.makeareadme.com](https://www.makeareadme.com/)
 - [CHANGELOG.md](CHANGELOG.md) according to [keepachangelog.com](https://keepachangelog.com/)
 
@@ -73,7 +72,6 @@ The first step in customizing this template consists in replacing `TAGS` by your
 
 #### 2.1. Replace tags `USER` and `REPO` by your (GituHub) _Username_ and _Repository name_ in the following files
 
-- [ ] [cliff.toml](./cliff.toml)
 - [ ] [CHANGELOG.template.md](./RSECURITY.template.md)
 - [ ] [package.json](package.json)
 - [ ] [README.template.md](./README.template.md)
@@ -169,9 +167,13 @@ This project is maintained by [@e2d2ipi](https://github.com/e2d2ipi). Please und
 
 ## Roadmap
 
-No changes are currently planned.
+This template is meant to provide only strict GitHub Features. As such, it is mostly meant to  serve as basis for more
+specialized templates implementing fetures specific to diffrent programming languages and/or types of projects. Beside
+this, it will eventually be improved by adding more advanced features such as:
 
-## Contributing
+- Automated [CHANGELOG.md](CHANGELOG.md) via [git-cliff](https://github.com/orhun/git-cliff)
+
+    ## Contributing
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
