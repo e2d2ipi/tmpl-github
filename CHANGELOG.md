@@ -9,25 +9,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- ...
+- Generic Filesytem
+- vscode configuration
+- Github standard files
+- CZ support for commits
+- Prettier configuration
+- Basic Dependabot config
+- Workflows and associated templates
+- Prettier support & Narkdown linting
+- package.json template and basic scripts
+- gh-pages: config, layout, icons, site webmanifest
+- Templates for: Readme, License, CodeOfConduct, Security, Contributing, Chagelog
 
-### Changed
-
-- ...
-
-### Removed
-
-- ...
-
-## [0.0.2](https://github.com/USERNAME/REPO_NAME/compare/v0.0.1...v0.0.2) - 2020-02-26
-
-### Added
-
-- ...
-
-## [0.0.1](https://github.com/USERNAME/REPO_NAME/releases/tag/v0.0.1) - 2020-01-13
-
-### Added
-
-- ...
 <!-- markdownlint-enable MD037 -->
