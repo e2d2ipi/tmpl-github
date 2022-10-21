@@ -1,6 +1,7 @@
 # Specific to tmpl-github 
 # UNCOMMENT this to make it LOCAL
 _dev-stuff
+
 # -------------------------------
 
 # Created by https://www.toptal.com/developers/gitignore/api/git,linux,macos,node,dotenv,windows,visualstudiocode
