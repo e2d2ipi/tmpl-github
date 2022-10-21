@@ -1,6 +1,6 @@
-# Development's Documentation
+# Safety Backups and Temporary Backups
 
-Folder [.github/][def] is intended for holding GitHub specific features such as Workflows, templates, etc ...
+Folder [_dev-stuff/backups/][def] is intended for holding  backups. Typical uses of this folder include (temporarly) holding a "safety copy" of (all or part of the) project until a critical modification is confirmed to not need a rollback and keeping an easily available copy of deprcated, yet possibly usefull again, stuff. This folder should be monitored and cleaned on a regular basis.
 
 ## Why use a `.gitkeep` file ?
 
@@ -9,5 +9,5 @@ As [Git doesn't track empty directories][def2], adding a`.gitkeep` file to a dir
 In this template, `.gitkeep` files are further used to document the filesystem's architecture, reason why each folder, whether empty or not, holds such a file. Letting your own directories also sytematically hold a  `.gitkeep` file is strongly recommended.
 
 
-[def]: ../.github/
+[def]: ../_dev-stuff/backups/
 [def2]: https://git.wiki.kernel.org/index.php/Git_FAQ#Can_I_add_empty_directories.3F

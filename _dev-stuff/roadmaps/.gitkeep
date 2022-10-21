@@ -1,0 +1,14 @@
+# Devlopment's Roadmaps
+
+Folder [_dev-stuff/roadmaps/][def] is intended for holding information about the future of the software. This includes _Todoes_, _Comments_ and _Suggestions_. This folder's content **should be monitored before starting any new feature** to check whether more useful/more urgent devlopments were planned. It is highly recommended that every feature that is staged and put in  [_dev-stuff/staged-stuff/][def2] is referred to in this folder.
+
+## Why use a `.gitkeep` file ?
+
+As [Git doesn't track empty directories][def3], adding a`.gitkeep` file to a directory is a way to ensure that it will not be ignored when empty and, thus, that the integrity of the filesystem's tree will be preserved throughout the whole development cycle.
+
+In this template, `.gitkeep` files are further used to document the filesystem's architecture, reason why each folder, whether empty or not, holds such a file. Letting your own directories also sytematically hold a  `.gitkeep` file is strongly recommended.
+
+
+[def]: ../_dev-notes/roadmaps/
+[def2]: ../_dev-notes/staged-stuff/
+[def3]: https://git.wiki.kernel.org/index.php/Git_FAQ#Can_I_add_empty_directories.3F

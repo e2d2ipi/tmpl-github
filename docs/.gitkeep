@@ -1,6 +1,6 @@
 # Project's Documentation
 
-Folder [docs /](../docs/) is intended for holding the project's documetation which can consists in a set of independent files or a whole website, as in the case of auto-generated code documentation. In any case, the content of this folder is meant to be **public**. Protected or private documentation should be stored in [dev/](../dev/).
+Folder [docs /](../docs/) is intended for holding the project's documetation which can consists in a set of independent files or a whole website, as in the case of auto-generated code documentation. In any case, the content of this folder is meant to be **public**. Protected or private documentation should be stored in [_dev-stuff/dev-docs/](../_dev-stuff/dev-docs).
 
 ## Why use a`.gitkeep` file ?
 

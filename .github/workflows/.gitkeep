@@ -1,6 +1,6 @@
 # GitHub's Worflows
 
-Folder  [.github/workflows/](../.github/workflows/) is intended for holding GitHub's workflows such as changelog's auto-generation, greetings, labeling, etc ...
+Folder [.github/workflows/](../.github/workflows/) is intended for holding GitHub's workflows such as changelog's auto-generation, greetings, labeling, etc ...
 
 ## Why use a `.gitkeep` file ?
 

@@ -1,6 +1,6 @@
 # Development's Documentation
 
-Folder [.github/][def] is intended for holding GitHub specific features such as Workflows, templates, etc ...
+Folder [dev-notes/dev-docs/][def] is intended for holding docucmentation that is specific to the pre-deployement phases of the project. Typical content includes additional information about the current development, notes on the future versions' content or references to the the private and protected elements of the code.
 
 ## Why use a `.gitkeep` file ?
 
@@ -9,5 +9,5 @@ As [Git doesn't track empty directories][def2], adding a`.gitkeep` file to a dir
 In this template, `.gitkeep` files are further used to document the filesystem's architecture, reason why each folder, whether empty or not, holds such a file. Letting your own directories also sytematically hold a  `.gitkeep` file is strongly recommended.
 
 
-[def]: ../.github/
+[def]: ../_dev-notes/dev-docs/
 [def2]: https://git.wiki.kernel.org/index.php/Git_FAQ#Can_I_add_empty_directories.3F
