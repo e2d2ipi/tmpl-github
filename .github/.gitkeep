@@ -1,6 +1,6 @@
-# GitHub's Worflows
+# Development's Documentation
 
-Folder [.github/workflows/][def] is intended for holding GitHub's workflows such as changelog's auto-generation, greetings, labeling, etc ...
+Folder [.github/][def] is intended for holding GitHub specific features such as Workflows, templates, etc ...
 
 ## Why use a `.gitkeep` file ?
 
@@ -9,5 +9,5 @@ As [Git doesn't track empty directories][def2], adding a`.gitkeep` file to a dir
 In this template, `.gitkeep` files are further used to document the filesystem's architecture, reason why each folder, whether empty or not, holds such a file. Letting your own directories also sytematically hold a  `.gitkeep` file is strongly recommended.
 
 
-[def]: ../.github/workflows/
+[def]: ../.github/
 [def2]: https://git.wiki.kernel.org/index.php/Git_FAQ#Can_I_add_empty_directories.3F
