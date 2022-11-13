@@ -1,6 +1,7 @@
 # Specific to tmpl-github 
 # UNCOMMENT this to make it LOCAL
 _dev-stuff
+workflows/.gitkeep
 
 # -------------------------------
 
