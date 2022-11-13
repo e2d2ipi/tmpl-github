@@ -1,27 +1,41 @@
 src:
   - src/*
 
+assets:
+  - assets/*
+
 build:
   - .dockerignore
   - example.env
+  - package.json
 
 chore:
   - .husky
   - .markdownlintignore
   - .prettierrc
   - .vscode/*
-  - cliff.toml
 
 docs:
+  - docs/*
+  - _dev_stuff/*
+  - _layouts/*
+  - README
+  - README.md
+  - CHANGELOG.md
+  - site.webmanifest 
+
+template:
+  - confi.yaml
   - CODE_OF_CONDUCT.md
   - CONTRIBUTING.md
   - LICENSE.md
-  - README.md
   - SECURITY.md
-  - docs/*
-  - .dev/*
-
-  - CHANGELOG.md
+  - android-chrome-192x192.png
+  - android-chrome-512x512.png
+  - apple-touch-icon.png
+  - favicon.png
+  - favicon-16x16.png
+  - favicon-32x32.png
 
 git/github:
   - .github/*

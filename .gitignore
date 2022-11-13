@@ -1,8 +1,8 @@
-# Specific to tmpl-github
-.todo
-.temp
-# Uncomment the following to make it local
-.dev
+# Specific to tmpl-github 
+# UNCOMMENT this to make it LOCAL
+_dev-stuff
+
+# -------------------------------
 
 # Created by https://www.toptal.com/developers/gitignore/api/git,linux,macos,node,dotenv,windows,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=git,linux,macos,node,dotenv,windows,visualstudiocode

@@ -1,6 +1,6 @@
-# GitHub Pages CSS Style Sheets
+# Original Data
 
-Folder [.assets/css/][def] is intended for holding GitHub Pages CSS Style Sheets.
+Folder [_dev-notes/originals/][def] is intended for holding the original version of data which had to be modified to be included in the project. Typical content includes full quality images, untroncated data or text files gathering, for example, the used dialog messages.
 
 ## Why use a `.gitkeep` file ?
 
@@ -9,5 +9,5 @@ As [Git doesn't track empty directories][def2], adding a`.gitkeep` file to a dir
 In this template, `.gitkeep` files are further used to document the filesystem's architecture, reason why each folder, whether empty or not, holds such a file. Letting your own directories also sytematically hold a  `.gitkeep` file is strongly recommended.
 
 
-[def]: ../.assets/css/
+[def]: ../_dev-notes/originals/
 [def2]: https://git.wiki.kernel.org/index.php/Git_FAQ#Can_I_add_empty_directories.3F

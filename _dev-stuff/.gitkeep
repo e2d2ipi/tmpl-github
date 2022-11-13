@@ -1,0 +1,22 @@
+# Additional Development Information and Resources
+
+Folder  [_dev-stuff/][def] is intended for holding additional information related to the developmenent of the project. This should NOT be included when pushing to a non-development branch. Typical content includes helpful resources or tools, unused pieces of project that are considered worth keeping for future updates or the original version of data which inclusion in the project required modifications.
+
+It is worth pointing out subfolders that should be monitored on a regular basis: 
+* [_dev-stuff/backups/][def2] and [_dev-stuff/reporting/][def3] are likely to fill with useless stuff over time and, thus, may bebefit from some regular cleaning.
+* [_dev-stuff/roadmaps/][def4] should be checked before starting new features in order to make sure that no hotter stuff was on the line.
+* [_dev-stuff/staged-stuff/][def5] may be worth a look from time to time, especially if adding references to its content in [_dev-stuff/roadmaps/][def4] was not established as a _must do_.
+
+## Why use a `.gitkeep` file ?
+
+As [Git doesn't track empty directories][def6], adding a`.gitkeep` file to a directory is a way to ensure that it will not be ignored when empty and, thus, that the integrity of the filesystem's tree will be preserved throughout the whole development cycle.
+
+In this template, `.gitkeep` files are further used to document the filesystem's architecture, reason why each folder, whether empty or not, holds such a file. Letting your own directories also sytematically hold a  `.gitkeep` file is strongly recommended.
+
+
+[def]: ../_dev-stuff
+[def2]: ../_dev-stuff/backups/
+[def3]: ../_dev-stuff/reporting/
+[def4]: ../_dev-stuff/roadmaps/
+[def5]: ../_dev-stuff/staged-stuff/
+[def6]: https://git.wiki.kernel.org/index.php/Git_FAQ#Can_I_add_empty_directories.3F

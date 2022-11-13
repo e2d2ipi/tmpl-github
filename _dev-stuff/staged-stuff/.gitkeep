@@ -1,9 +1,13 @@
-# Additional Development Information
+# Devlopment's Roadmaps
 
-Folder  [.dev/](../dev) is intended for holding additional information related to the developmenent of the project. Typical content includes helpful resources or tools, unused pieces of project that are considered worth keeping for future updates or the original version of data which inclusion in the project required modifications.
+Folder [_dev-notes/staged-stuff/][def] is intended for holding sub-parts of the projecz that were (temporaly) abandandonned but are meant to be brought to end in the future. Its content is meant to be more persistent than this of [_dev-notes/backup/][def2]. As a good practice and in order to avoid having to monitor more than one folder, it is recommended that every feature added in this folder is referred to by some entry in [_dev-notes/roadmaps/](../_dev-notes/roadmaps/) 
 
 ## Why use a `.gitkeep` file ?
 
 As [Git doesn't track empty directories](https://git.wiki.kernel.org/index.php/Git_FAQ#Can_I_add_empty_directories.3F), adding a`.gitkeep` file to a directory is a way to ensure that it will not be ignored when empty and, thus, that the integrity of the filesystem's tree will be preserved throughout the whole development cycle.
 
 In this template, `.gitkeep` files are further used to document the filesystem's architecture, reason why each folder, whether empty or not, holds such a file. Letting your own directories also sytematically hold a  `.gitkeep` file is strongly recommended.
+
+
+[def]: ../_dev-notes/staged-stuff/
+[def2]: ../_dev-notes/backup/
